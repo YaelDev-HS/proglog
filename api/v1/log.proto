@@ -1,0 +1,10 @@
+syntax = "v3";
+
+package log v1;
+
+option go_package = "github.com/YaelDev-HS/api/log_v1";
+
+message Record { // tipoDeDato, Nombre
+ bytes value = 1;
+ uint64 offset = 2;
+};
